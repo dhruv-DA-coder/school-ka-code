@@ -1,7 +1,7 @@
 a=int(input("enter the starting number :"))
 b=int(input("enter the ending number :"))
 
-if(a>0 and b>a):
+if(a>1 and b>a):
     for x in range(a,b+1):
         for i in range(2,x):
             if (x%i == 0):
