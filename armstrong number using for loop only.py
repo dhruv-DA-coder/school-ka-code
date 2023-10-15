@@ -35,9 +35,7 @@ if(num):
         elif(i=="0"):
             j=0
             sum=+j
-            print(sum)
         jum=jum+sum
-        print(jum)
         a= int(num)
 if(a==jum):
     print(num, "is a armstrong number")
