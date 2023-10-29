@@ -12,11 +12,11 @@ h=1
 
 if(r<=n and n>0 and r>0):
     for a in range (1, n+1):
-        f*=i
+        f*=a
     for b in range (1, r+1):
-        g*=i
+        g*=b
     for c in range (1, j+1):
-        h*=i
+        h*=c
 #insering values of n ,r and n-c in the formula
     x=f/(g*h)
 
