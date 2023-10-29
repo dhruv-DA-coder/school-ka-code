@@ -11,11 +11,11 @@ h=1
 #factorials of n , r and n-c.
 
 if(r<=n and n>0 and r>0):
-    for i in range (1, n+1):
+    for a in range (1, n+1):
         f*=i
-    for i in range (1, r+1):
+    for b in range (1, r+1):
         g*=i
-    for i in range (1, j+1):
+    for c in range (1, j+1):
         h*=i
 #insering values of n ,r and n-c in the formula
     x=f/(g*h)
