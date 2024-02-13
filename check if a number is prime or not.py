@@ -7,6 +7,7 @@ if(x>2):
             break
         else:
             print (x,"is a prime number")
+            break
 elif(x==2):
     print(x,"is a prime")
 
